@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+header > h1{
+    text-align: center;
+    background-color: rgb(78, 77, 77);
+}
+ menu li {
+    display: inline-block;
+    background-color: gray;
+    color: aliceblue;
+   gap: 2px;
+    
+}
+menu ul 
+{
+    background-color: gray;
+    padding: 10px;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.5em;
+}

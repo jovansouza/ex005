@@ -1,0 +1,23 @@
+/* typical device breakpoints
+=================================
+celular:de 600px até 768px
+tablet:de 768px até 992px
+desktop:992px até 1200px */
+
+@media print {
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+       background-image: url(./back-tablet.jpg);
+    }
+    img#phone{
+        display: none;
+    }
+    img#tablet{ display: block;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+    img#print{ display: none;}
+    
+}
